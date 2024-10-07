@@ -1,0 +1,31 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "careerCampusApp",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/karthick1005/carriergrowth.git#Backend"
+  },
+  "author": "Jaya Suhane_nagariya",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/karthick1005/carriergrowth/issues"
+  },
+  "homepage": "https://github.com/karthick1005/carriergrowth/tree/Backend#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.3",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^5.13.9",
+    "morgan": "^1.10.0",
+    "nodemon": "^3.1.7"
+  }
+}
